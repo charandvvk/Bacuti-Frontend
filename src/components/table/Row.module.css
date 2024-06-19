@@ -1,0 +1,29 @@
+.product {
+    background: rgb(222, 83, 63, 0.75);
+}
+
+.subassembly {
+    background: rgb(94, 150, 197, 0.75);
+}
+
+.component {
+    background: rgb(122, 122, 122, 0.75);
+}
+
+.parent {
+    cursor: pointer;
+}
+
+.parent:hover {
+    background: lightgray;
+}
+
+.item {
+    display: flex;
+    gap: 7.5px;
+    justify-content: center;
+}
+
+.active {
+    transform: rotate(90deg);
+}

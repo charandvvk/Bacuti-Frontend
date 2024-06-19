@@ -1,0 +1,39 @@
+.app {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.menu {
+    width: 25%;
+}
+
+.title {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.buttons button {
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.graph {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.active {
+    background: rgb(238, 232, 170);
+}

@@ -1,0 +1,49 @@
+.title {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.codes {
+    gap: 10px;
+}
+
+.code {
+    gap: 5px;
+    align-items: center;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+}
+
+.product {
+    background: rgb(222, 83, 63, 0.75);
+}
+
+.subassembly {
+    background: rgb(94, 150, 197, 0.75);
+}
+
+.component {
+    background: rgb(122, 122, 122, 0.75);
+}
+
+.table {
+    width: 87.5%;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.table th {
+    background-color: dimgray;
+    color: white;
+}
